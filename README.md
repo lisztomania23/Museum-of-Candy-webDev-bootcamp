@@ -2,7 +2,7 @@
 
 ![Museum of Candy "background image by Freepik"](./design/desktop-and-mobile-preview.jpg)
 
-Welcome to the Museum of Candy website, a responsive web application created as a practice exercise based on the [Udemy Web Developer Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/) course. This project is designed to help you learn about responsive web development and how to use Bootstrap for building modern web interfaces.
+Welcome to the Museum of Candy website, a responsive web application created as a practice exercise based on the [Udemy Web Developer Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/) course.
 
 - [Live Demo](https://lisztomania23.github.io/Museum-of-Candy-webDev-bootcamp/) - Experience the Museum of Candy website in action by visiting the live demo.
 
@@ -16,6 +16,7 @@ Welcome to the Museum of Candy website, a responsive web application created as 
 
 ## 🍪 Technology Stack
 
-- HTML
-- CSS
-- Bootstrap
+- 🍦 HTML
+- 🍧 CSS
+- 🍨 Bootstrap
+- 🍡 JS
