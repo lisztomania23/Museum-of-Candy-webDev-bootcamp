@@ -14,7 +14,9 @@
 
     <link rel="icon" type="image/png" sizes="128x128" href="./imgs/icon.png">
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Outfit:wght@100&family=Roboto:wght@200;300;400;700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -138,7 +140,7 @@
                                 <label class="mb-0" for="peopleAmount">How many people are there in your group?</label>
                             </div>
                             <div class="col-6">
-                                <select id="peopleAmount" class="form-control">
+                                <select id="peopleAmount" class="form-control" name="peopleAmount">
                                     <option selected>1</option>
                                     <option>2</option>
                                     <option>3</option>
@@ -161,7 +163,7 @@
                                 <label for="dataVisit" class="mb-0">Date of visit</label>
                             </div>
                             <div class="col-8">
-                                <input id="dateofVisit" type="date" name="bday" max="3000-12-31" min="1000-01-01"
+                                <input id="dateofVisit" type="date" name="dateofVisit" max="3000-12-31" min="1000-01-01"
                                     class="form-control">
                             </div>
                         </div>
@@ -170,7 +172,7 @@
                                 <label for="yourName" class="mb-0">Name</label>
                             </div>
                             <div class="col-8">
-                                <input class="form-control" id="yourName" type="text" placeholder="Mr. Willy Wonka">
+                                <input class="form-control" id="yourName" type="text" name="name" placeholder="Mr. Willy Wonka">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -179,7 +181,7 @@
                             </div>
                             <div class="col-8">
                                 <input class="form-control" id="yourEmail" type="email"
-                                    placeholder="sugarysecrets@chocolicious.com">
+                                    placeholder="sugarysecrets@chocolicious.com" name="email">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -187,7 +189,7 @@
                                 <label for="yourPhone" class="mb-0">Phone</label>
                             </div>
                             <div class="col-8">
-                                <input class="form-control" id="yourPhone" type="tel" placeholder="xxx-xxx-xxxx">
+                                <input class="form-control" id="yourPhone" type="tel" placeholder="xxx-xxx-xxxx" name="phone">
                             </div>
                         </div>
                     </form>
