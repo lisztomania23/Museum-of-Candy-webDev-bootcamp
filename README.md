@@ -6,7 +6,7 @@ Welcome to the Museum of Candy website, a responsive web application created as 
 
 - [Live Demo](https://lisztomania23.github.io/Museum-of-Candy-webDev-bootcamp/) - Experience the Museum of Candy website in action by visiting the live demo.
 
-> This exercise was a code-along session following the completion of the HTML, CSS, and Bootstrap sections of the course. The primary focus of this practical exercise was to sharpen the skills needed for the effective application of Bootstrap. While websites built with Bootstrap may often exhibit a consistent structure, this exercise placed a special emphasis on the art of differentiation. It demonstrated that, even within the Bootstrap framework, one can create web designs that are truly distinct and unique, setting them apart from the crowd.
+> This exercise was a code-along session following the completion of the HTML, CSS, and Bootstrap sections of the course. The primary focus of this practical exercise was to sharpen the skills needed for the effective application of [Bootstrap](https://getbootstrap.com/). While websites built with Bootstrap may often exhibit a consistent structure, this exercise placed a special emphasis on the art of differentiation. It demonstrated that, even within the Bootstrap framework, one can create web designs that are truly distinct and unique, setting them apart from the crowd.
 
 ## 🍫 Key Features
 
