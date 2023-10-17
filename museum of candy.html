@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Explore a practice exercise based on the Udemy Web Developer Bootcamp course. Learn responsive web development and Bootstrap with this hands-on exercise. Includes navigation bar, header section, HTML, CSS, responsive images, and column ordering." />
+    <meta name="keywords"
+        content="Udemy, Web Developer Bootcamp, course exercise, responsive design, Bootstrap, navigation bar, header section, HTML, CSS, responsive images, column ordering" />
+    <meta name="author" content="Rahul Raj (lisztomania23)">
+
+
+    <link rel="icon" type="image/png" sizes="128x128" href="./imgs/icon.png">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="museum_of_candy.css">
+
+    <title>Museum of Candy</title>
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="" class="navbar-brand">CANDY</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#bookYourTickets" class="nav-link" data-toggle="modal"
+                        data-target="#bookYourTickets">TICKETS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="imgs/hand2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container-fluid px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="imgs/milk.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>ABOUT</h2>
+                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Welcome to the Museum of Candy! Explore a world of sweetness and indulge in the
+                            history of your favorite treats. Our museum is a sugar-coated paradise, where you'll
+                            discover the fascinating journey of candy, from its origins to modern confectionery
+                            delights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>SAVOR THE SWEET STORY</h2>
+                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Embark on a captivating journey through the artistic realm of candy. Our candy
+                            sanctuary celebrates the confluence of art forms where candy serves as the medium for
+                            diverse creative expressions. Savor the delightful chapters of this sweet narrative, where
+                            art and candy intertwine to create a sensory masterpiece.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="imgs/gumball.png" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="imgs/sprinkles.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>A FLAVORFUL JOURNEY AWAITS</h2>
+                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">Our mission is to celebrate the art and craft of candy-making, showcasing a
+                            diverse palette of flavors and the heartwarming stories behind these iconic sweets. Join us
+                            in exploring the wonderful world of candies and their creators.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="bookYourTickets" tabindex="-1" role="dialog" aria-labelledby="bookYourTickets"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Book your tickets</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row align-items-center">
+                            <div class="col-6">
+                                <label class="mb-0" for="peopleAmount">How many people are there in your group?</label>
+                            </div>
+                            <div class="col-6">
+                                <select id="peopleAmount" class="form-control">
+                                    <option selected>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10+</option>
+                                    <option>15+</option>
+                                    <option>20+</option>
+                                    <option>30+</option>
+                                    <option>50+</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="dataVisit" class="mb-0">Date of visit</label>
+                            </div>
+                            <div class="col-8">
+                                <input id="dateofVisit" type="date" name="bday" max="3000-12-31" min="1000-01-01"
+                                    class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="yourName" class="mb-0">Name</label>
+                            </div>
+                            <div class="col-8">
+                                <input class="form-control" id="yourName" type="text" placeholder="Mr. Willy Wonka">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-4">
+                                <label for="yourEmail" class="mb-0">Email</label>
+                            </div>
+                            <div class="col-8">
+                                <input class="form-control" id="yourEmail" type="email"
+                                    placeholder="sugarysecrets@chocolicious.com">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>
